@@ -8,3 +8,7 @@ ull gcd(ull x, ull y) {
   else
     return gcd(y, r);
 }
+
+ull lcm(ull x, ull y) {
+  return (x * y) / gcd(x, y);
+}
